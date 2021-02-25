@@ -8,7 +8,7 @@ to a shell, commandline or any other application that allows python to do that.
 # An example of using a print function:
 print('Hello World!')
 
-#We can also print variables by referencing them without quotes in the print funtion:
+#We can also print variables by referencing them without quotes in the print function:
 var = 'Hello World!'
 print(var)
 
