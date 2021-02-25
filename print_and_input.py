@@ -5,7 +5,7 @@ The builtin print function allows us to print a string, or any other object (the
 to a shell, commandline or any other application that allows python to do that. 
 '''
 
-# An example of a print function:
+# An example of using a print function:
 print('Hello World!')
 
 #We can also print variables by referencing them without quotes in the print funtion:
