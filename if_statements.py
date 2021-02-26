@@ -31,7 +31,7 @@ question = int(input(f'What is {a} + {b}? '))
 if question == a+b:
 	print('Correct Answer!')
 elif question != a+b:
-	print(f'Incorrect Answer! The answer was {c}')
+	print(f'Incorrect Answer! The answer was {a+b}')
 
 
 '''
