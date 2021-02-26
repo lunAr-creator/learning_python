@@ -5,14 +5,14 @@ The builtin print function allows us to print a string, or any other object (the
 to a shell, commandline or any other application that allows python to do that. 
 '''
 
-# An example of a print function:
+# An example of using a print function:
 print('Hello World!')
 
-#We can also print variables by referencing them without quotes in the print funtion:
+#We can also print variables by referencing them without quotes in the print function:
 var = 'Hello World!'
 print(var)
 
-# We can aslo add variables AND a string into a print function like so (they must be separated by an equals sign or a plus sign - + or =):
+# We can aslo add variables AND a string into a print function like so (they must be separated by an equals sign or a plus sign (+ or =):
 var = 'Hello'
 print(var,'World!')
 
@@ -25,7 +25,7 @@ var = 'Hello World!'
 print(f'My message is {var}')
 
 '''
-The builtin input function lets you ask the user for input. You can also call this function and wait for the user to pree the key
+The builtin input function lets you ask the user for input. You can also call this function and wait for the user to press the key
 in the description.  
 '''
 
