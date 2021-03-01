@@ -28,7 +28,10 @@ while True:
 		continue
 	print(f'{num} squared is {num*num}')
 
-# If the while loop enden normally (no break), control passes to an optional else. You use this when youve coded a while loop to check for something, and breaking as soons as its found. 
+'''
+If the while loop enden normally (no break), control passes to an optional else. You use this when youve coded
+a while loop to check for something, and breaking as soons as its found. 
+'''
 
 numbers = [1, 3, 5, 6,]
 position = 0
