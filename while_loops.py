@@ -33,16 +33,15 @@ If the while loop enden normally (no break), control passes to an optional else.
 a while loop to check for something, and breaking as soons as its found. 
 '''
 
-numbers = [1, 3, 5, 6,]
+numbers = [1, 3, 5]
 position = 0
 while position < len(numbers):
 	number = numbers[position]
 	if number % 2 == 0:
 		print(f'Found even number {number}')
-		break
 	position +=1
 else:
-	print('No even number found')
+	print('No even numbers found')
 
 '''
 Expected Output:
