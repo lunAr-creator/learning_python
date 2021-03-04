@@ -85,9 +85,10 @@ for x in range(0,3):
 print(list( range(0,3) ))
 
 
+
 # Other uses of range
 
-# Will count down from 2
+# This for loop will count down from 2
 
 for x in range(2, -1, -1):
 	print(x)
@@ -95,6 +96,8 @@ for x in range(2, -1, -1):
 # Even numbers from 0 to 10 (the last number in the range function is the number that the list goes up by)
 
 print(list(range(0, 11, 2)))
+
+
 
 # Excercises:
 
@@ -113,7 +116,7 @@ while True:
 		break
 	num += 1
 
-# 8 lines of code - works and is effecient and more pythonic than using a while loop
+# 9 lines of code - works and is effecient and more pythonic than using a while loop
 
 guess_me = 5
 for number in range(10):
